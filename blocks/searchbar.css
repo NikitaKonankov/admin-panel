@@ -1,14 +1,14 @@
-.container {
+.searchbar {
     padding: 48px;
 }
 
-.saerchbar__container {
+.searchbar__container {
     position: relative;
     width: max-content;
     margin-bottom: 32px;
 }
 
-.saerchbar__container:last-child {
+.searchbar__container:last-child {
     margin-bottom: 0;
 }
 
