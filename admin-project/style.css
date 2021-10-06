@@ -1,3 +1,8 @@
+.page {
+    --bg-color-accent: #A8A8FF;
+    --bg-color-main: #8055FF;
+}
+
 .main-wrapper{
     display: flex;
     flex-direction:column;
@@ -11,7 +16,7 @@
     align-items:center;
     height: 2rem;
     margin-bottom: 2rem;
-    background-color: #A8A8FF;
+    background-color: var(--bg-color-accent);
     }
 .header__page-title{
     height: 2rem;
@@ -19,7 +24,7 @@
     font-style: normal;
     font-weight: bold;
     letter-spacing: -0.2px;
-    color: #8055FF;
+    color: var(--bg-color-main);
     font-size: 26px;
     line-height: 2rem;
     }
@@ -31,20 +36,20 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2rem;
-    border: 2px solid #A8A8FF ;
+    border: 2px solid var(--bg-color-accent);
     }
 .filter-group{
     display: flex;
     align-items: center;
     }
 .filter-group__search{
-    background-color: #8055FF;
+    background-color: var(--bg-color-main);
     margin: 0.5rem;
     width: 16rem;
     height: 2rem;
     }
 .filter-group__filter{
-    background-color: #8055FF;
+    background-color: var(--bg-color-main);
     margin: 0.5rem 0rem;
     width: 2rem;
     height: 2rem;
@@ -52,7 +57,7 @@
 .filter-row__loading{
     display: flex;
     align-items: center;
-    background-color: #8055FF;
+    background-color: var(--bg-color-main);
     margin: 0.5rem;
     width: 2rem;
     height: 2rem;
@@ -62,17 +67,17 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    border: 2px solid #8055FF ;
+    border: 2px solid var(--bg-color-main);
     }
 .table__header{
     flex: 0 0 3rem;
-    background-color: #8055FF;
+    background-color: var(--bg-color-main);
     } 
 .table__body{
     flex: 1 1 auto; 
-    background-color:#A8A8FF;
+    background-color: var(--bg-color-accent);
     }
 .table__footer{
     flex: 0 0 3rem;
-    background-color: #8055FF;
+    background-color: var(--bg-color-main);
     }
