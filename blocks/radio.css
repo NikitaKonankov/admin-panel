@@ -41,11 +41,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-    margin: 0 0.5rem 0 0;
+    margin-right: 0.5rem;
     cursor: pointer;
 }
 
-.radio__control_last {
+.checkbox__control:last-child {
     margin: 0;
 }
 
