@@ -38,11 +38,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.5rem;
-}
-
-.checkbox__form_last {
-    margin: 0;
 }
 
 .checkbox__control {
@@ -50,7 +45,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
+    margin-right: 0.5rem;
     cursor: pointer;
+}
+
+.checkbox__control:last-child {
+    margin: 0;
 }
 
 .checkbox__group {
@@ -94,8 +94,4 @@ body {
     fill: var(--background-checkbox-white);
     opacity: 0;
     transition: opacity 0.25s ease-in;
-}
-
-.checkbox__area_last {
-    margin: 0;
 }
